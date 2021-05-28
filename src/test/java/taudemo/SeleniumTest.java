@@ -30,9 +30,9 @@ public class SeleniumTest {
     @Test
     public void openTheOrgPageAndCheckTitle(){
         String expectedOrgTitle = "Example Domain";
-        driver.get("https://www.example.org");
+        driver.get("https://www.example.com");
         assertEquals(expectedOrgTitle,driver.getTitle());
-        driver.get("https://www.eltiempo.com");
+        driver.get("https://www.eltiempo.com.co");
     }
 
     @AfterAll
