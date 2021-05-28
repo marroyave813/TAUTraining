@@ -32,7 +32,7 @@ public class SeleniumTest {
         String expectedOrgTitle = "Example Domain";
         driver.get("https://www.example.org");
         assertEquals(expectedOrgTitle,driver.getTitle());
-        driver.get("https://www.google.org");
+        driver.get("https://www.eltiempo.com");
     }
 
     @AfterAll
